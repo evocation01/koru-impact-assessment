@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Koru Impact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Lato', 'sans-serif'],
+                        serif: ['Libre Baskerville', 'serif'],
+                    },
+                    colors: {
+                        'primary-blue': '#2563EB',
+                        'primary-green': '#16A34A',
+                        'accent-gold': '#FBBF24',
+                        'brand-gray': '#1F2937',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-brand-gray font-serif">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="./index.html" class="font-sans font-black text-2xl text-primary-blue">
+                Koru Impact
+            </a>
+            <nav class="hidden md:flex space-x-8 items-center">
+                <a href="./index.html" class="font-sans hover:text-primary-blue transition duration-300">Home</a>
+                <a href="./about.html" class="font-sans hover:text-primary-blue transition duration-300">About Us</a>
+                <a href="./services.html" class="font-sans hover:text-primary-blue transition duration-300">Our Services</a>
+                <a href="./contact.html" class="font-sans bg-primary-blue text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition duration-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex items-center justify-center" style="min-height: calc(100vh - 160px);"> <!-- Adjust height based on header/footer -->
+        <section class="w-full">
+            <div class="container mx-auto px-6">
+                <div class="max-w-2xl mx-auto bg-gray-50 border border-gray-200 rounded-lg p-8 md:p-12 text-center">
+                    <h1 class="font-sans font-black text-4xl text-brand-gray">Get in Touch</h1>
+                    <p class="mt-4 text-lg text-brand-gray/80">
+                        We welcome inquiries from potential clients, partners, and collaborators. Let's explore how we can work together to create a lasting, positive impact.
+                    </p>
+                    <div class="mt-8">
+                        <p class="text-lg">For all inquiries, please contact us at:</p>
+                        <a href="mailto:info@koruimpact.org" class="font-sans text-2xl font-bold text-primary-blue mt-2 inline-block hover:underline">
+                            info@koruimpact.org
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-gray text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>© 2024 Koru Impact. All Rights Reserved.</p>
+            <p class="text-sm mt-2 opacity-70">Guiding Organizations Toward a Sustainable Legacy.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
