@@ -12,9 +12,7 @@ The entire project was architected and built according to the detailed project b
 
 A live, deployed version of the website can be viewed here:
 
-**[https://your-netlify-url.netlify.app](https://your-netlify-url.netlify.app)**
-
-_(Note: Replace this URL with your actual Netlify link after deployment.)_
+https://koru-impact-website.netlify.app
 
 ---
 
